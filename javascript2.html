@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Javascript Basics
+	</title>
+</head>
+<body>
+	  <script type="text/javascript">
+	  /*
+	  console.log(typeof(3));
+	  console.log(typeof("this is a string"));
+	  console.log(typeof(true));
+	  var age = 13;
+	  var name = "Spondon";
+	  var check = true;
+	  var abc;
+	  console.log(abc);
+	  console.log(typeof(age));
+	  console.log(typeof(name));
+	  console.log(typeof(check));
+	  console.log("My age is = " + age);
+	  console.log(name);
+	  console.log(check);
+	  
+	  var newName = prompt("Enter your name", 'Guest');
+	  
+	  alert("Welcome " + newName + " Sir");
+	  console.log(newName);
+	  */
+	  /*  
+	  Post -(First Assign and then Increment or Decrement)
+	  Pre - (First Inc or dec then assign)
+	  Post Increment and Pre Increment 
+	  x++					++x																
+	  Post Decrement and Pre Decrement 
+	  x--					--x       
+
+	  */
+
+	  /* var x = 10;								
+	  x--; 										
+	  var p = x--;    										
+	  console.log(p);							
+	  console.log(x);
+	  */
+
+	  /*
+	  x++; ++x; --> x = x+1;
+	  
+	  x--; --x; --> x=x-1;
+	  */
+
+	  /*
+	  var x = 10;
+	  var p = x++;
+	  alert (p+ ' ' +x);
+	  */ 
+
+	  /*
+	  var radius = prompt("Enter the radius");
+	  var area = (22/7)*radius*radius;
+	  alert(area);
+	  */
+
+	 /* alert (("22"/"7")*parseInt(radius)*parseInt(radius)); */
+
+	 /*
+	 var input = prompt("Enter The No. to Check whether it is divisible by 5 or not!");
+	 if (input%5==0)
+	 {
+	 	alert("The no. is divisible by 5");
+	 }
+	 else
+	 {
+		alert("The no. is not divisible by 5");
+	 }
+	*/
+
+	/*
+	 var no1= 10;
+	 var res1 = no1 % 2 == 0;
+	 var res2 = no1 % 5 == 0;
+	 alert(no1+' divisible by 2 and 5 '+(res1 && res2));
+	 alert(no1+' divisible by 2 or 5 '+(res1 || res2));
+	*/
+	/*
+	var marks = prompt("Enter your marks");
+	if (marks>40){
+		alert("Congartulations, you passed");
+	}
+	else if(marks==40){
+		alert("Dude, you just passed");
+	}
+	else {
+		alert("Sorry, you failed");
+	}
+	*/
+	/*
+	var a= prompt("Enter the first no.");
+	var b= prompt("Enter the second no.");
+	var sum = parseInt(a)+parseInt(b);
+	alert("The sum is= "+ (parseInt(a)+parseInt(b)));
+	*/
+
+	/*
+	var age = prompt("Enter your age");
+	if (age>=18){
+		alert("Your age is valid");
+	}
+	else {
+		alert("Your age is invalid");
+	}
+	*/
+	/*
+	var age = prompt("Enter your age");
+	age>=18?alert("Your age is valid"):alert("Your age is invalid");
+	// If age is greater then(?) 18 then display your age is valid else(:) display your age is invalid
+	*/
+	/*
+	var a= prompt ("Enter first no.");
+	var b= prompt ("Enter second no.");
+	a>b? alert(a): alert (b)
+	*/
+	/*
+	var age= prompt ("Enter your age");
+	if (age>18) {
+    alert ("Enter your name");
+    var name= prompt("Enter your name");
+    var city= prompt ("Enter your city");
+    alert (Welcome + name);
+    alert (from + city);
+	}
+	*/
+	var user = prompt("Enter a no. between 1 to 10");
+	var random = Math.floor((Math.random() * 10) + 1);
+	if (user==random){
+		alert("YOU WON, YEAHHH!!!");
+	}
+	else{
+		alert("You Lost, the person who won is"+ random);
+	}
+
+	</script>
+</body>
+</html>
